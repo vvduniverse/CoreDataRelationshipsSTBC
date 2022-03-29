@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		849FC76127F32D5E00E6B0DA /* CoreDataRelationshipsSTBCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FC76027F32D5E00E6B0DA /* CoreDataRelationshipsSTBCApp.swift */; };
-		849FC76327F32D5E00E6B0DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FC76227F32D5E00E6B0DA /* ContentView.swift */; };
 		849FC76527F32D5F00E6B0DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849FC76427F32D5F00E6B0DA /* Assets.xcassets */; };
 		849FC76827F32D5F00E6B0DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849FC76727F32D5F00E6B0DA /* Preview Assets.xcassets */; };
 		849FC76A27F32D5F00E6B0DA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FC76927F32D5F00E6B0DA /* Persistence.swift */; };
-		849FC76D27F32D5F00E6B0DA /* CoreDataRelationshipsSTBC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 849FC76B27F32D5F00E6B0DA /* CoreDataRelationshipsSTBC.xcdatamodeld */; };
+		849FC77827F34C2B00E6B0DA /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 849FC77627F34C2B00E6B0DA /* CoreDataContainer.xcdatamodeld */; };
+		849FC77A27F34C3900E6B0DA /* CoreDataRelationshipsBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FC77927F34C3900E6B0DA /* CoreDataRelationshipsBC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		849FC75D27F32D5D00E6B0DA /* CoreDataRelationshipsSTBC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataRelationshipsSTBC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849FC76027F32D5E00E6B0DA /* CoreDataRelationshipsSTBCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsSTBCApp.swift; sourceTree = "<group>"; };
-		849FC76227F32D5E00E6B0DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		849FC76427F32D5F00E6B0DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849FC76727F32D5F00E6B0DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		849FC76927F32D5F00E6B0DA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		849FC76C27F32D5F00E6B0DA /* CoreDataRelationshipsSTBC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataRelationshipsSTBC.xcdatamodel; sourceTree = "<group>"; };
+		849FC77727F34C2B00E6B0DA /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
+		849FC77927F34C3900E6B0DA /* CoreDataRelationshipsBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsBC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +56,10 @@
 			isa = PBXGroup;
 			children = (
 				849FC76027F32D5E00E6B0DA /* CoreDataRelationshipsSTBCApp.swift */,
-				849FC76227F32D5E00E6B0DA /* ContentView.swift */,
+				849FC77927F34C3900E6B0DA /* CoreDataRelationshipsBC.swift */,
 				849FC76427F32D5F00E6B0DA /* Assets.xcassets */,
 				849FC76927F32D5F00E6B0DA /* Persistence.swift */,
-				849FC76B27F32D5F00E6B0DA /* CoreDataRelationshipsSTBC.xcdatamodeld */,
+				849FC77627F34C2B00E6B0DA /* CoreDataContainer.xcdatamodeld */,
 				849FC76627F32D5F00E6B0DA /* Preview Content */,
 			);
 			path = CoreDataRelationshipsSTBC;
@@ -143,9 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849FC77827F34C2B00E6B0DA /* CoreDataContainer.xcdatamodeld in Sources */,
+				849FC77A27F34C3900E6B0DA /* CoreDataRelationshipsBC.swift in Sources */,
 				849FC76A27F32D5F00E6B0DA /* Persistence.swift in Sources */,
-				849FC76327F32D5E00E6B0DA /* ContentView.swift in Sources */,
-				849FC76D27F32D5F00E6B0DA /* CoreDataRelationshipsSTBC.xcdatamodeld in Sources */,
 				849FC76127F32D5E00E6B0DA /* CoreDataRelationshipsSTBCApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,13 +349,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		849FC76B27F32D5F00E6B0DA /* CoreDataRelationshipsSTBC.xcdatamodeld */ = {
+		849FC77627F34C2B00E6B0DA /* CoreDataContainer.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				849FC76C27F32D5F00E6B0DA /* CoreDataRelationshipsSTBC.xcdatamodel */,
+				849FC77727F34C2B00E6B0DA /* CoreDataContainer.xcdatamodel */,
 			);
-			currentVersion = 849FC76C27F32D5F00E6B0DA /* CoreDataRelationshipsSTBC.xcdatamodel */;
-			path = CoreDataRelationshipsSTBC.xcdatamodeld;
+			currentVersion = 849FC77727F34C2B00E6B0DA /* CoreDataContainer.xcdatamodel */;
+			path = CoreDataContainer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
